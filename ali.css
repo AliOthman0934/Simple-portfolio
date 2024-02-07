@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+
+*{
+    font-family: "poppins",sans-serif;
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header{
+    
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.Logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.8em;
+    
+}
+
+.Navigetion a {
+    text-decoration: none;
+    color: blue;
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-right: 10px;
+    padding: 10px;
+    
+
+    
+}
+
+.Navigetion a:hover{
+    color: brown;
+}
+
+
+.main1{
+    background-image: url(architecture-building-structure-wall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15%;
+
+}
+
+.main1 h2{
+    color: blue;
+    font-size: 2em;
+    font-weight: 800;
+    align-items: center;
+}
+
+.main1 span{
+    color:black;
+    display: inline;
+    font-size: 0.8em;
+}
+
+
+.but1{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: blue;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0.5em;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    transition: 0.7s ease;
+    
+}
+
+
+.but1:hover{
+    transform: scale(1.1);
+}
+
+.social-icons a {
+    color:white;
+    font-size: 2em;
+    display: inline-block;
+    padding-top: 10px;
+    padding-right: 20px;
+    transition: 0.7s ease;
+
+}
+
+
+.social-icons a:hover{
+    transform: scale(1.1);
+}
+
+.main2 h2{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.project-link{
+    padding-top: 30px;
+}
+
+.project-link a{
+    display:inline;
+    text-decoration: none;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+
+
